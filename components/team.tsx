@@ -128,10 +128,6 @@ export default function Team() {
           <h2 className="team-title">
             Nuestras Autoridades
           </h2>
-
-          <p className="team-subtitle">
-            Conoce al equipo directivo que lidera la carrera de Ingeniería Civil hacia la excelencia académica y profesional.
-          </p>
         </div>
 
         {/* TARJETAS */}

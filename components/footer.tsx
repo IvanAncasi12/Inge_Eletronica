@@ -85,7 +85,7 @@ export default function Footer() {
               <h3 className="text-xl font-bold text-white">{institucion.institucion_iniciales || 'UPEA'}</h3>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Formando profesionales de excelencia en Ingeniería Civil, comprometidos con el desarrollo sostenible y la innovación tecnológica de Bolivia.
+              Formando profesionales de excelencia, comprometidos con el desarrollo sostenible y la innovación tecnológica de Bolivia.
             </p>
              
             <div className="flex gap-3 pt-2">
