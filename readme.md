@@ -1,17 +1,44 @@
-Project setup
+
+## 2. Instalar dependencias
+
+```bash
 npm install
+```
 
-Id Carrera/Institudion
+## 3. Configurar variables de entorno
+
+```bash
 cp .env.copy .env
+```
 
-Lints and fixes files
-npm run lint
+Editar el archivo `.env` según la carrera o instituto correspondiente.
 
-Compiles and hot-reloads for development
+## 4. Ejecutar en modo desarrollo
+
+```bash
 npm run dev
+```
 
-Lints and fixes files
-npm run lint
+Abrir en el navegador:
 
-Compiles and minifies for production
+```text
+http://localhost:3000
+```
+
+## 5. Generar versión de producción
+
+```bash
 npm run build
+```
+
+## 6. Ejecutar versión de producción
+
+```bash
+npm start
+```
+
+## 7. Auditoría de seguridad
+
+```bash
+pnpm audit
+```
