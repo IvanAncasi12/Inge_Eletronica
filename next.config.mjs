@@ -23,7 +23,7 @@ const nextConfig = {
               "style-src 'self' 'unsafe-inline' https:",
               isDev
                 ? "script-src 'self' 'unsafe-inline' 'unsafe-eval' https:"
-                : "script-src 'self' https:",
+                : "script-src 'self' 'unsafe-inline' https:",
               "connect-src 'self' https: http:",
               "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://maps.google.com",
               "media-src 'self' https: blob:",
