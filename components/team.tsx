@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import type { CSSProperties } from 'react';
 import { Facebook, Twitter, Phone, Loader2 } from 'lucide-react';
 import { api, Autoridad, utils } from '@/lib/api';
+import '@/components/componentes.css'
 
 type TeamColors = {
   primario: string;
